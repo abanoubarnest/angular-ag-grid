@@ -1,0 +1,63 @@
+{
+  "ProjectName": "Sample",
+  "countries": [
+    {
+      "countrynumber": "1000",
+      "countryname": "USA",
+      "states": [
+        {
+          "statenumber": "1001",
+          "statename": "california",
+          "statetype": "democratic",
+          "votes": [
+            {
+              "date": "2018-01-01",
+              "count": 100
+            },
+            {
+              "date": "2018-01-02",
+              "count": 100
+            },
+            {
+              "date": "2018-01-03",
+              "count": 200
+            }
+          ]
+        },
+        {
+          "statenumber": "1002",
+          "statename": "NewYork",
+          "statetype": "democratic",
+          "votes": [
+            {
+              "date": "2018-01-01",
+              "count": 100
+            },
+            {
+              "date": "2018-01-02",
+              "count": 100
+            },
+            {
+              "date": "2018-01-03",
+              "count": 200
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "expectedVoteValues": [
+    {
+      "date": "2018-01-01",
+      "count": 2000000
+    },
+    {
+      "date": "2018-01-02",
+      "count": 2000000
+    },
+    {
+      "date": "2018-01-03",
+      "count": 2000000
+    }
+  ]
+}
